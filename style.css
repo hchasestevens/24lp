@@ -49,21 +49,32 @@
 }
 
 .table {
-	display:table;
+	display: flex;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	list-style: none;
+	flex-flow: row wrap;
+	-webkit-flex-flow: row wrap;
 	margin-right: auto;
 	margin-left: auto;
 	text-align: center;
 	max-width: 350px;
+	padding: 0px;
+	justify-content: space-around;
 }
 
-.table img{
+.table li{
+	padding: 10px;
+	margin: auto;
+	text-align: center;
+}
+
+.table li img{
 	border-radius: 20px;
 	width: 150px;
 	height: 150px;
-	padding: 10px;
-	margin-left: auto;
-	margin-right: auto;
-	float: left;
 }
 
 .green {
