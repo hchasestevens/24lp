@@ -1,19 +1,21 @@
 @import url(http://fonts.googleapis.com/css?family=Nixie+One|Cousine:400,700);
 
 .container{
-  width:250px;
-  height:250px;
-  margin:0 auto;
-  padding-bottom: 30px;
+	width: 250px;
+	height: 250px;
+	margin: 0 auto;
+	padding-bottom: 30px;
 }
+
 .container .rectangle{
-  margin: 0 -2 0 -2;
-  display:inline-block;
-  vertical-align:top;
-  width: 127px;
-  height: 127px;
-  border: 0px;
+	margin: 0 -2 0 -2;
+	display: inline-block;
+	vertical-align: top;
+	width: 127px;
+	height: 127px;
+	border: 0px;
 }
+
 .container .rectangle h1{
 	color: white;
 	text-align: center;
@@ -26,22 +28,24 @@
 	vertical-align: middle;
 	line-height: 127px;
 }
-.container .rectangle p{
-  display:inline;
-  text-align:left;
-  vertical-align:top;
-  color:white;
 
-  }
-.container .rectangle h2{
-  display:inline;
-  vertical-align:top;
-  color:white;
+.container .rectangle p{
+	display: inline;
+	text-align: left;
+	vertical-align: top;
+	color: white;
 }
+
+.container .rectangle h2{
+	display: inline;
+	vertical-align: top;
+	color: white;
+}
+
 .container .rectangle img{
-  display:inline;
-  height:100px;
-  text-align:left;
+	display: inline;
+	height: 100px;
+	text-align: left;
 }
 
 .table {
@@ -49,6 +53,7 @@
 	margin-right: auto;
 	margin-left: auto;
 	text-align: center;
+	max-width: 350px;
 }
 
 .table img{
@@ -58,6 +63,7 @@
 	padding: 10px;
 	margin-left: auto;
 	margin-right: auto;
+	float: left;
 }
 
 .green {
