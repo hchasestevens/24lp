@@ -2,6 +2,7 @@
 	<head>
 		<title>24LP - Official home of 24 Lutton Place, Edinburgh</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
+		<!-- favicons -->
 		<link rel="shortcut icon" href="/favicons/favicon.ico">
 		<link rel="apple-touch-icon" sizes="57x57" href="/favicons/apple-touch-icon-57x57.png">
 		<link rel="apple-touch-icon" sizes="114x114" href="/favicons/apple-touch-icon-114x114.png">
@@ -23,7 +24,18 @@
 		<meta name="msapplication-square150x150logo" content="/favicons/mstile-150x150.png">
 		<meta name="msapplication-square310x310logo" content="/favicons/mstile-310x310.png">
 		<meta name="msapplication-wide310x150logo" content="/favicons/mstile-310x150.png">
-    		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- include jQuery library -->
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+		<!-- include Cycle plugin -->
+		<script type="text/javascript" src="http://malsup.github.com/jquery.cycle.all.js"></script>
+		<script type="text/javascript">
+		$(document).ready(function() {
+		    $('.slideshow').cycle({
+				fx: 'fade' // choose your transition type, ex: fade, scrollUp, shuffle, etc...
+			});
+		});
+		</script>
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
 	<body>
 		<div class='container'>
@@ -72,6 +84,59 @@
 			</li>
 		</ul>
 		<div id='shadowbox'>
+			<div class="slideshow">
+				<img src='./olsson/IMG_0012.JPG' />
+				<img src='./olsson/IMG_0018.jpg' />
+				<img src='./olsson/IMG_0020.JPG' />
+				<img src='./olsson/IMG_0024.JPG' />
+				<img src='./olsson/IMG_0028.JPG' />
+				<img src='./olsson/IMG_0029.JPG' />
+				<img src='./olsson/IMG_0033.jpg' />
+				<img src='./olsson/IMG_0035.JPG' />
+				<img src='./olsson/IMG_0036.jpg' />
+				<img src='./olsson/IMG_0070.jpg' />
+				<img src='./olsson/IMG_0078.JPG' />
+				<img src='./olsson/IMG_0087.jpg' />
+				<img src='./olsson/IMG_0088.JPG' />
+				<img src='./olsson/IMG_0092.JPG' />
+				<img src='./olsson/IMG_0093.jpg' />
+				<img src='./olsson/IMG_0094.jpg' />
+				<img src='./olsson/IMG_0097.JPG' />
+				<img src='./olsson/IMG_0105.JPG' />
+				<img src='./olsson/IMG_0107.jpg' />
+				<img src='./olsson/IMG_0108.JPG' />
+				<img src='./olsson/IMG_0113.jpg' />
+				<img src='./olsson/IMG_0114.JPG' />
+				<img src='./olsson/IMG_0115.JPG' />
+				<img src='./olsson/IMG_0121.JPG' />
+				<img src='./olsson/IMG_0122.JPG' />
+				<img src='./olsson/IMG_0123.JPG' />
+				<img src='./olsson/IMG_0124.JPG' />
+				<img src='./olsson/IMG_0125.jpg' />
+				<img src='./olsson/IMG_0126.jpg' />
+				<img src='./olsson/IMG_0127.jpg' />
+				<img src='./olsson/IMG_0133.jpg' />
+				<img src='./olsson/IMG_0163.jpg' />
+				<img src='./olsson/IMG_0171.jpg' />
+				<img src='./olsson/IMG_0173.JPG' />
+				<img src='./olsson/IMG_0174.JPG' />
+				<img src='./olsson/IMG_0179.jpg' />
+				<img src='./olsson/IMG_0258.jpg' />
+				<img src='./olsson/IMG_0259.jpg' />
+				<img src='./olsson/IMG_0260.jpg' />
+				<img src='./olsson/IMG_0272.jpg' />
+				<img src='./olsson/IMG_0285.jpg' />
+				<img src='./olsson/IMG_0288.jpg' />
+				<img src='./olsson/IMG_0364.JPG' />
+				<img src='./olsson/IMG_0365.JPG' />
+				<img src='./olsson/IMG_0388.JPG' />
+				<img src='./olsson/IMG_0432.jpg' />
+				<img src='./olsson/IMG_0442.jpg' />
+				<img src='./olsson/IMG_0444.jpg' />
+				<img src='./olsson/IMG_0457.jpg' />
+				<img src='./olsson/IMG_0459.jpg' />
+				<img src='./olsson/IMG_0463.jpg' />
+			</div>
 		</div>
 	</body>
 </html>
