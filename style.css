@@ -51,7 +51,7 @@
 .table {
 	display: flex;
 	display: -webkit-box;
-	display: -moz-box;
+	display: -moz-box-flex;
 	display: -ms-flexbox;
 	display: -webkit-flex;
 	list-style: none;
